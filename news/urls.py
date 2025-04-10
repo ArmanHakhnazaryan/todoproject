@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+# test comment in urls
 urlpatterns = [
     path('', views.news_home, name="news_home"),
     path('create', views.create, name="create"),
