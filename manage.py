@@ -3,7 +3,7 @@
 import os
 import sys
 
-#  test comment in manage
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todoproject.settings')
@@ -12,7 +12,7 @@ def main():
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
-            "availdable on your PYTHONPATH environment variable? Did you "
+            "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
