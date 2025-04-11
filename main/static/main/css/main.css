@@ -45,6 +45,9 @@ aside ul li:hover, aside ul a:hover {
     transform: scale(1.05);
 }
 
+.navigation-icon {
+    margin-right: 4px;
+}
 
 main .features {
     float: left;
@@ -54,7 +57,7 @@ main .features {
     width: 75%
 }
 
-main .features h1 {front-size: 50px;}
+main .features h1 {font-size: 50px;}
 main .features p {max-width: 400px; margin: 20px auto}
 
 .alert-warning {
@@ -66,7 +69,6 @@ main .features p {max-width: 400px; margin: 20px auto}
 }
 
 form {
-    margin-left: 32%
-    width: 500px
-    margin-top: 50px
+    width: 500px;
+    margin: 50px auto;
 }
