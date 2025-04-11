@@ -1,7 +1,7 @@
 from .models import Articles
 from django.forms import ModelForm, TextInput, DateTimeInput, Textarea
 
-
+#test git
 class ArticlesForm(ModelForm):
     class Meta:
         model = Articles
